@@ -1,0 +1,6 @@
+can make routes by nesting folders if you have a page.js/tsx in the folder. 
+layout will automatically "wrap" files in its nest.  The root layout is required and must contain html and body tags (this is only the layout at the ACTUAL ROOT of project, not the root of its own nest)
+
+FROM THE DOCS:
+Routing Files
+Add page to expose a route, layout for shared UI such as header, nav, or footer, loading for skeletons, error for error boundaries and route for APIs.
