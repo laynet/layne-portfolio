@@ -1,9 +1,13 @@
 import React from 'react'
+import Header from '../components/Header'
+import Info from './Info'
+
 
 function Page() {
   return (
     <div>
-        <h1>OEIRBNOIERBNOI</h1>
+        <Header />
+        <Info/>
     </div>
   )
 }

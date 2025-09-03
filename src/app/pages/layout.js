@@ -1,6 +1,7 @@
 import Header from "../components/Header"
 import About from "./About"
-export default function DashboardLayout({children}) {
+import Interests from "./Interests"
+export default function PagesLayout({children}) {
   return (
     // <html lang="en">
     //   <body>
@@ -13,7 +14,8 @@ export default function DashboardLayout({children}) {
     
     <main>
         {/* <Header />
-        <About /> */}
+        <About /> 
+        <Interests />*/}
         {children}
         </main>
   )
